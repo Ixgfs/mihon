@@ -213,6 +213,6 @@ object SettingsDownloadScreen : SearchableSettings {
     pref = downloadPreferences.saveAsPdf, // <-- Nota que aquí ya no lleva () al final
     title = "Descargar One-Shots en PDF",
     subtitle = "Guarda en la carpeta de la extensión con el nombre del manga. La app no lo mostrará como descargado."
-),
+)
     }
 }
