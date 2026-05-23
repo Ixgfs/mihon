@@ -51,7 +51,7 @@ object SettingsDownloadScreen : SearchableSettings {
             Preference.PreferenceItem.SwitchPreference(
                 preference = downloadPreferences.saveAsPdf,
                 title = "Descargar One-Shots en PDF",
-                subtitle = "Guarda en la carpeta de la extensión con el nombre del manga. La app no lo mostrará como descargado.",
+                subtitle = "Guarda como PDF en la extensión (No saldrá en la app)",
             ),
             Preference.PreferenceItem.SwitchPreference(
                 preference = downloadPreferences.splitTallImages,
